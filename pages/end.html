@@ -4,9 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>End Page</title>
+    <link rel="stylesheet" href="/SongBird/style/end.css">
+    <link rel="shortcut icon" href="/SongBird/assets/images/icons8-cherv.png" type="image/x-icon">
+    <title>Finish</title>
 </head>
 <body>
-    
-</body>
+    <div class="god">    
+        <div class="end">
+        </div>
+        <a class="aButt" href="/SongBird/pages/quiz.html">
+
+            <button class="butt">Попробовать ещё раз</button>
+        </a>
+      
+    </div>
+    <div class="container">
+
+      <div class="quizHead">
+
+        <div class="topHead">
+
+          <div class="logo"></div>
+
+          <h5 class="score">Score: 0</h5>
+
+        </div>
+
+        <nav class="classBird">
+          <li class="classList active">
+            <a class="classItem" href="#">Разминка</a>
+          </li>
+          <li class="classList">
+            <a class="classItem" href="#">Воробьиные </a>
+          </li>
+          <li class="classList">
+            <a class="classItem" href="#">Лесные птицы</a>
+          </li>
+          <li class="classList">
+            <a class="classItem" href="#">Певчие птицы</a>
+          </li>
+          <li class="classList">
+            <a class="classItem" href="#">Хищные птицы</a>
+          </li>
+          <li class="classList">
+            <a class="classItem" href="#">Морские птицы</a>
+          </li>
+        </nav>
+
+      </div>
+
+      <div class="quizMain">
+
+        <img class="birdImg" id="birdQuizImg" src="../assets/images/bird.jpg" alt="bird"></img>
+
+        <ul class="quiz">
+          <div class="quizName">
+            <h3 id="quizBirdName">*****</h3>
+          </div>
+          <div class="quizVoice">
+            <audio id="quizVoice" src="../assets/images/sound.mp3" controls>
+
+            </audio>
+          </div>
+        </ul>
+
+      </div>
+
+        <div class="answer">
+          <div class="options">
+             <nav class="navOptions">
+
+               <li class="optionsBird" id="0">
+                <span class="span" id="0"></span>
+                <p class="textBir" id="0"></p>
+              </li>
+              
+              <li class="optionsBird" id="1">
+                <span class="span" id="1"></span>
+                <p class="textBir" id="1"></p>
+              </li>
+
+              <li class="optionsBird" id="2">
+                <span class="span" id="2"></span>
+                <p class="textBir" id="2"></p>
+              </li>
+
+              <li class="optionsBird" id="3">
+                <span class="span" id="3"></span> 
+                <p class="textBir" id="3"></p>
+              </li>
+
+              <li class="optionsBird" id="4">
+                <span class="span" id="4"></span>
+                <p class="textBir" id="4"></p>
+              </li>
+
+              <li class="optionsBird" id="5">
+                <span class="span" id="5"></span>
+                <p class="textBir" id="5"></p>
+              </li>
+
+             </nav>
+          </div>
+
+          <div class="answer">
+            <div class="options">
+              <div class="birdDetalisCard">
+                <p class="startText">Послушайте плеер. <br>
+                  Выберите птицу из списка  
+                </p>
+                <div class="selectedOption">
+                  <img class="birdImg" id="birdImgBottom" src="../assets/images/bird.jpg" alt="bird">
+                  <ul class="selectedUl">
+                    <li class="selectedName"><h4 id="birdName">Игорь</h4></li>
+                    <li class="selectedDwells" id="birdDwells">Лох Печальный</li>
+                    <li class="selectedVoice">
+                      <audio class="quizVoice" id="birdVoice" src="../assets/images/sound.mp3" controls></audio>
+                    </li>
+                  </ul>
+                </div>
+                <div class="textBird" id="textBird"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <button class="button">Next Level</button>
+
+        </div>
+
+    </div>
+    <script type="module" src="/SongBird/script/end.js"></script>
+  </body>
 </html>
